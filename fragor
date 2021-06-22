@@ -1,0 +1,12 @@
+Hur kan du i din webbläsare se ifall din Javascript-kod lyckas göra en request mot
+API:et?
+
+Öppna chrome console, tryck på network och "start recording Network log", uppdatera sidan och gör en sökning,
+nu bör sökningen dyka upp i listan under network där du ser "status" 200 om OK och type "fetch".
+du kan också använda dig av bland annat console.log.
+
+
+Förklara hur man kan debugga Javascript.
+
+Du använder dig av "debugger" i din kod. Kör sedan index.html i din browser. 
+Inspecta sidan och navigera dig till sources, refresha sidan och sedan bör din debugger köras.

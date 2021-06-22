@@ -1,0 +1,15 @@
+eventListener läggs på knappen som är skapad i index.html där det ligger en fetch.
+I fetchen skapar jag en try/catch för att fånga errors.
+
+
+Jag gör input valdidering igenom alla inputfält genom att använda "let inputs = document.getElementsByTagName("input")".
+Genom att göra så får jag en HTMLCollection med inputfälten i som jag sedan gör om till en array dom jag sedan fäster en eventlistener
+på respektive unputfält. Kollar sedan inputfältet om den är av typen text och kör sedan checkAll om det stämmer.
+
+
+checkAll är själva valideringsfunktionen som kollar om längden på ordet jag skrivit in inputfältet är mindre än två.
+Är detta fallet så blir variablen allFilled false, och knappen är ej tillgänglig. 
+Skulle det vara true så ska man kunna använda knappen.
+
+
+
